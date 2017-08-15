@@ -9,7 +9,7 @@ h1 {
 }
 
 .main_image {
-  background-image: url("../images/the-flatiron-building.png");
+  background: url("../images/the-flatiron-building.png") no-repeat center center;
 }
 
 nav li {
