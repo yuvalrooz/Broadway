@@ -16,7 +16,27 @@ nav li {
   font-size: 18px;
   color: white;
   list-style: none;
-  margin: 0 0 20px 0;
+}
+
+.top_nav_div nav li {
+  margin: 0 0 16px 0;
+}
+
+.lower_nav_div {
+  background-color: dimgrey;
+  text-align: left;
+}
+
+.lower_nav_div nav li {
+  display: inline;
+}
+
+.lower_nav_div nav ul {
+  padding-left: 0px;
+}
+
+.copyright {
+  font-size: 11px;
 }
 
 nav a {
