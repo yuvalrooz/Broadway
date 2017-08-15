@@ -9,27 +9,30 @@ h1 {
 }
 
 .main_image {
-  background-image: url("./resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
 
 nav li {
   font-size: 18px;
   color: white;
+  list-style: none;
+  margin: 0 0 20px 0;
+}
+
+nav a {
+  color: white;
 }
 
 h2 {
   font-size: 32px;
-  color: grey;
 }
 
 h4 {
   font-size: 23px;
-  color: grey;
 }
 
 p {
   font-size: 14px;
-  color: grey;
 }
 
 .designed_in {
