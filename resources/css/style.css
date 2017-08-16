@@ -1,6 +1,8 @@
 body {
   text-align: center;
   font-family: Helvetica;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -9,7 +11,8 @@ h1 {
 }
 
 .main_image {
-  background: url("../images/the-flatiron-building.png") no-repeat center center;
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: 100% 100%;
 }
 
 nav li {
@@ -18,8 +21,14 @@ nav li {
   list-style: none;
 }
 
+nav ul {
+  display: inline;
+  padding: 0;
+}
+
+
 .top_nav_div nav li {
-  margin: 0 0 16px 0;
+  margin-bottom: 10px;
 }
 
 .lower_nav_div {
@@ -41,6 +50,7 @@ nav li {
 
 nav a {
   color: white;
+  display:inline-block;
 }
 
 h2 {
